@@ -1,4 +1,5 @@
 import './style.css'
+import './styles.scss'
 import _ from 'lodash';
 import logo from './logo.png'
 
@@ -15,4 +16,3 @@ document.body.classList.add('haikei')
 const image = new Image()
 image.src = logo
 document.body.appendChild(image);
-
