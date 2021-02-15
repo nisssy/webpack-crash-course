@@ -8,5 +8,8 @@ module.exports = {
     filename: 'main.js',
     path: outputPath
   },
-  mode: 'development'
+  mode: 'development',
+  devServer: {
+    contentBase: outputPath
+  }
 }
