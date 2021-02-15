@@ -25,6 +25,14 @@ module.exports = {
         name: './images/[name].[ext]'
       }
     },
+    {
+      test: /\.scss$/,
+      use: [
+        `style-loader`,
+        'css-loader',
+        'sass-loader'
+      ]
+    }
   ]
   },
   mode: 'development',
