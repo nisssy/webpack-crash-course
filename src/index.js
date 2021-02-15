@@ -1,8 +1,7 @@
-import Tiger  from './utilities';
+import './style.css'
 import _ from 'lodash';
 
 function component() {
-  console.log(Tiger.say())
   const element = document.createElement('div');
   const array = ['Hello','webpack','!!!']
   element.innerHTML = _.join(array, ' ')
@@ -10,3 +9,4 @@ function component() {
 }
 
 document.body.appendChild(component());
+document.body.classList.add('haikei')
